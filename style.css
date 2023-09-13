@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar{
+    position:absolute;
+    top:0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 9%;
+    z-index:10;
+  }
+  
+  .navbar_netflix{
+    height: 100%;
+    display: flex;
+    width: 125px;
+    margin-top: 0;
+    padding: 0;
+    background-color: black;
+    background: transparent;
+  }
+
+  .navbar_nav_items{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+  }
+
+  .netflix_logo{
+    /* width:100%; */
+    width: 200px;
+    height:100%;
+    background-color: black;
+    background: transparent;
+  }
+
+  .language_drop_down{
+    background:transparent;
+    border:none;
+    color: white;
+    width: 100px;
+  }
+
+  .dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.4);
+  }
+
+  .signin_button{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+  }
+  .hero_bg_image_container{
+    width:100%;
+    height: 100%;
+
+  }
+
+  .hero_bg_image_container img{
+    /* width:100%; */
+    /* height: 100%; */
+    object-fit: cover;
+    width: 100%;
+    height: 690px;
+    margin-top: 0;
+    padding-top: 0;
+    background-size: cover;
+  }
+  .hero_bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0, 0, 0.4);
+  }
+
+  .hero_card{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero_title{
+    font-weight: 800;
+    font-size: 3rem;
+  }
+
+  .hero_subtitle, 
+  .hero_description{
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+
+  .email{
+    width: 450px;
+    height: 60px;
+    color:black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+    background-color: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-weight: 800;
+    border-width: 1px;
+  }
+
+  .get_started{
+    font-size: larger;
+    width: 180px;
+    height: 60px;
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    border-radius: 3px;
+    font-weight:600 ;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3{
+    border-top: 8px rgb(69, 69, 69);
+    padding: 50px;
+  }
+
+  .card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+  }
+
+  .desc-1{
+    padding-left: 80px;
+  }
+
+  .card-1 video{
+    position: relative;
+    width: 100%;
+    height: 54%;
+    grid-column: 2/2;
+    grid-row:1/2;
+    z-index:-1;
+  }
+
+  .card-1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+
+  .style-cards h1{
+    font-size: 3rem;
+    padding:1rem;
+    padding-left: 0;
+  }
+
+  .style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+  }
+  
+  .desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+    width: 200%;
+  }
+
+  .card-3{
+   position: relative;
+   top:87px;
+   left:125px;
+   width: 65%;
+   height: 78%;
+   grid-column: 2/2;
+   grid-template-columns: 50% 40%;
+   padding: 25px 45px 50px;
+   grid-row:1/2;
+   z-index:-1;
+   display: flex;
+   margin-bottom: 4rem;
+  }
+
+  .footer{
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 6rem;
+  }
+  .footer a{
+    color: #999;
+    font-size: 0.9rem;
+    
+  }
+
+  .footer p{
+    margin-bottom: 1.5rem;
+    padding-left: 100px;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  .footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:2rem;
+    padding-left: 100px;
+  }
+
+  .footer li{
+    line-height: 1.9;
+    text-decoration: underline;
+    color: white;
+   
+
+  }
+  .saperator{
+    height: 10px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.256);
+  }
